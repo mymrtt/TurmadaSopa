@@ -1,0 +1,64 @@
+.ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding: 11%;
+	font-family: FreightSansProBook-Regular;
+	font-size: 0.88em;
+	color: #000000;
+	line-height: 0.75em;
+	text-transform: uppercase;
+}
+
+.div-logo-turmadasopa {
+	width: 20%;
+}
+
+.logo-turmadasopa {
+	width: 11%;
+	left: -11%;
+	top: -76px;
+	padding: 26%;
+
+}
+
+.header-titulo {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.turma-da-sopa {
+	font-family: Haiku's-Script-v.08-upgrade;
+	font-size:6.25em;
+	color: #000000;
+	font-style: normal;
+	text-align: left;
+ }
+
+.de-niteroi {
+	font-family: Haiku's-Script-v.08-upgrade;
+	font-size: 3.69em;
+	color: #000000;
+	
+}
+
+.home1 {
+	width: 16%;
+	top: 101%;
+	left: 7%;
+	
+
+}
+
+.div-home2 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.home2 {
+	width: 28%;
+	top: 90%
+	left: 60%;
+	
+}
