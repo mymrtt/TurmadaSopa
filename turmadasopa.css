@@ -12,6 +12,7 @@
 
 .borda {
 	border-style: solid;
+	border-width: 2%;
 	height: 8px;
 }
 
@@ -102,5 +103,34 @@ h3 {
 	font-style: normal;
 	text-align: left;
 	line-height: 1.23em;
-	
+
 }
+
+.section-grafico {
+	padding: 10%;
+}
+
+.container-graficos {
+	margin: 4%;
+	padding: 51px;
+	border-style: dashed;
+	border-width: 4px; 
+	border-color: yellow;
+}
+
+h4 {
+	text-align: center;
+}
+
+.nossos-resultados {
+	padding: 7%;
+}
+
+.apoio1 {
+	width: 35%;
+}
+
+.apoio2 {
+	width: 35%;
+}
+
