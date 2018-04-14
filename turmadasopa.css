@@ -1,3 +1,8 @@
+nav {
+	margin: -100px;
+}
+
+
 .ul {
 	display: flex;
 	justify-content: space-around;
@@ -12,7 +17,7 @@
 
 .borda {
 	border-style: solid;
-	border-width: 2%;
+	border-width: 2px;
 	height: 8px;
 }
 
@@ -134,3 +139,62 @@ h4 {
 	width: 35%;
 }
 
+.na-midia {
+	font-family: Haiku's-Script-v.08-upgrade];
+	font-size: 3.69em;
+	color: #000000;
+	font-style: normal;
+	text-align: center;
+	line-height: 3.16em;
+
+}
+
+.div-midias {
+	padding: 52px;
+}
+
+.borda-3 {
+	border-style: dashed;
+	border-width: 4px; 
+	border-color: yellow;
+}
+
+.acontecendo {
+	font-family: Haiku's-Script-v.08-upgrade];
+	font-size: 3.60em;
+	color: #000000;
+	font-style: normal;
+	text-align: center;
+	line-height: 3.16em;
+	padding: 74px;
+
+}
+
+.icon2 {
+	width: 7%;
+}
+
+.icon1 {
+	width: 4%;
+}
+
+.icon3 {
+	width: 8%;
+}
+
+
+.heart1 {
+	width: 20%
+}
+
+.heart2 {
+	width: 20%
+}
+
+.heart3 {
+	width: 20%
+}
+
+.heart4 {
+	width: 20%
+}
