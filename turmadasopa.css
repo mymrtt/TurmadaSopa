@@ -1,5 +1,5 @@
 nav {
-	margin: -100px;
+	margin: 3%;
 }
 
 
@@ -7,7 +7,6 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
-	padding: 11%;
 	font-family: FreightSansProBook-Regular;
 	font-size: 0.88em;
 	color: #000000;
@@ -19,14 +18,17 @@ nav {
 	border-style: solid;
 	border-width: 2px;
 	height: 8px;
+	margin: 3%;
 }
 
 .div-logo-turmadasopa {
 	width: 20%;
+	margin: -20px;
 }
 
 .logo-turmadasopa {
 	width: 50%;
+	margin: 11%;
 	padding: 24%;
 
 }
@@ -62,17 +64,14 @@ nav {
 }
 
 .div-home2 {
-	/*display: flex;
-	justify-content: flex-end;*/
 position: absolute;
-right: 17%;
-top: 86%;
+right: 7%;
+top: 45%;
 
 }
 
 .home2 {
-	/*width: 100%;*/
-	width: 260%;
+	width: 300px;
 	
 }
 
@@ -170,16 +169,48 @@ h4 {
 
 }
 
+.container-acontecendo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 36%;
+}
+.livro{
+	margin-top: -4%;
+
+}
+.cobertor {
+	margin-top: -9%;
+}
+.h5-acontecendo {
+	text-align: left;
+	width: 40%;
+
+}
+
+.paragraf-acontecendo {
+	width: 62%;
+	text-align: left;
+	margin-left: 10%;
+}
+
 .icon2 {
-	width: 7%;
+	width: 15%;
 }
 
 .icon1 {
-	width: 4%;
+	width: 10%;
 }
 
 .icon3 {
-	width: 8%;
+	width: 15%;
 }
 
 
