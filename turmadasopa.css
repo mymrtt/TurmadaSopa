@@ -155,22 +155,42 @@ h4 {
 	line-height: 3.16em;
 }
 
+.div-video {
+	margin-top: 5%;
+	margin-left: 14%;
+}
+
 .paragraf-video {
-	width: 50%;
+	font-family: FreightSansProBook-Regular;
+	font-size: 0.88em;
+	color: #036fef;
+	text-decoration: underline;
+	width: 55%;
 }
 
 .div-midias {
 	padding: 52px;
+	margin-top: -6%;
 }
 
 .container-midia1 {
-	margin-top: -32%;
-	margin-left: 60%;
+	margin-top: -31%;
+	margin-left: 70%;
+	width: 20%;
+}
+
+.img-midia1 {
+	width: 80%;
 }
 
 .container-midia2 {
-	margin-top: 6%;
-	margin-left: 60%;
+	margin-top: 3%;
+	margin-left: 70%;
+	width: 17%;
+}
+
+.img-midia2 {
+	width: 93%;
 }
 
 .borda-3 {
@@ -187,7 +207,6 @@ h4 {
 	text-align: center;
 	line-height: 3.16em;
 	padding: 74px;
-
 }
 
 .container-acontecendo{
@@ -203,17 +222,18 @@ h4 {
 	flex-direction: column;
 	width: 36%;
 }
+
 .livro{
 	margin-top: -4%;
-
 }
+
 .cobertor {
 	margin-top: -9%;
 }
+
 .h5-acontecendo {
 	text-align: left;
 	width: 40%;
-
 }
 
 .paragraf-acontecendo {
@@ -236,7 +256,6 @@ h4 {
 	justify-content: center;
 	text-align: center;
 	padding: 5%;
-
 }
 
 .container-coraçoes {
@@ -261,19 +280,68 @@ h4 {
 
 
 .heart1 {
-	width: 20%
+	width: 30%
+}
+
+.h-voluntario {
+	position: relative;
+	top: -245px;
+	left: 104px;
+	font-size: 1.2em;
+	color: #fff;
+}
+
+.paragraf-heartvoluntario {
+	position: absolute;
+	top: 4142px;
+	left: 230px;
+	width: 14%;
+	font-size: 1em;
+	color: #fff;
+
+}
+
+.container-heart2 {
+	margin-top: -22%;
 }
 
 .heart2 {
-	width: 20%
+	width: 30%
+}
+
+.h-doaçaomateriais {
+	position: absolute;
+	top: 4265px;
+	left: 225px;
+	font-size: 1.2em;
+	color: #fff;
+}
+
+.paragraf-heartdoaçaomaterias {
+	position: absolute;
+	top: 4330px;
 }
 
 .heart3 {
-	width: 20%
+	width: 30%
 }
 
 .heart4 {
-	width: 20%
+	width: 30%
+}
+
+footer {
+	display: flex;
+}
+
+.div-contato {
+	width: 27%;
+}
+
+.div-parceiros {
+	display: flex;
+	margin-right: 390px;
+    margin-left: 154px;
 }
 
 .rodape-logo-turmadasopa { 
