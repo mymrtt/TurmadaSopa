@@ -2,6 +2,11 @@ nav {
 	margin: 3%;
 }
 
+@media (max-width: 640px) {
+	nav {
+		display: none;
+	}
+}
 
 .ul {
 	display: flex;
@@ -14,14 +19,20 @@ nav {
 	text-transform: uppercase;
 }
 
-.borda {
+.borda-header {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 1px;
 	height: 8px;
 	margin: 3%;
 }
 
-.div-logo-turmadasopa {
+@media (max-width: 640px) {
+	.borda-header {
+		width: 296px;
+	}
+}
+
+.container-logo{
 	width: 20%;
 	margin: -20px;
 }
@@ -30,7 +41,13 @@ nav {
 	width: 50%;
 	margin: 11%;
 	padding: 24%;
+}
 
+@media (max-width: 640px) {
+	.logo-turmadasopa {
+		width: 100%;
+		margin-left: 132px;
+	}
 }
 
 .header-titulo {
@@ -54,25 +71,47 @@ nav {
 	justify-content: center;
 	font-family: Haiku's-Script-v.08-upgrade];
 	font-size: 3.69em;
-	color: #000000;
-	
+	color: #000000;	
 }
 
 .home1 {
 	width: 16%;
+}
 
+@media (max-width: 640px) {
+	.home1 {
+		width: 48%;
+		margin-top: 5%;
+	}
 }
 
 .div-home2 {
-position: absolute;
-right: 7%;
-top: 45%;
+	position: absolute;
+	top: 45%;
+	right: 7%;
+	
+}
 
+@media (max-width: 640px) {
+	.div-home2 {
+		display: none;
+	}
 }
 
 .home2 {
-	width: 300px;
-	
+	width: 300px;	
+}
+
+.div-home3 {
+	display: none;
+}
+
+@media (max-width: 640px) {
+	.div-home3 {
+		width: 48%;
+    	margin-top: 5%;
+    	margin: 12px;
+	}
 }
 
 .contato {
@@ -85,13 +124,19 @@ top: 45%;
 	line-height: 0.75em;
 }
 
-.borda-2 {
+@media (max-width: 640px) {
+	.contato {
+		display: none;
+	}
+}
+
+.borda-header2 {
 	border-style: dashed;
 	border-width: 4px; 
 	border-color: yellow;
 }
 
-.titulo-sobre-a-turma {
+.titulo-sobaturma {
 	font-family: Haiku's-Script-v.08-upgrade];
 	font-size:3.69em;
 	color: #000000;
@@ -113,7 +158,6 @@ h3 {
 	font-style: normal;
 	text-align: left;
 	line-height: 1.23em;
-
 }
 
 .section-grafico {
@@ -155,7 +199,7 @@ h4 {
 	line-height: 3.16em;
 }
 
-.div-video {
+.container-video {
 	margin-top: 5%;
 	margin-left: 14%;
 }
@@ -168,12 +212,12 @@ h4 {
 	width: 55%;
 }
 
-.div-midias {
+.container-midias {
 	padding: 52px;
 	margin-top: -6%;
 }
 
-.container-midia1 {
+.midia1 {
 	margin-top: -31%;
 	margin-left: 70%;
 	width: 20%;
@@ -183,7 +227,7 @@ h4 {
 	width: 80%;
 }
 
-.container-midia2 {
+.midia2 {
 	margin-top: 3%;
 	margin-left: 70%;
 	width: 17%;
@@ -278,7 +322,6 @@ h4 {
 	width: 15%;
 }
 
-
 .heart1 {
 	width: 30%
 }
@@ -293,12 +336,11 @@ h4 {
 
 .paragraf-heartvoluntario {
 	position: absolute;
-	top: 4142px;
+	top: 4143px;
 	left: 230px;
 	width: 14%;
 	font-size: 1em;
 	color: #fff;
-
 }
 
 .container-heart2 {
@@ -312,7 +354,7 @@ h4 {
 .h-doaçaomateriais {
 	position: absolute;
 	top: 4265px;
-	left: 225px;
+	left: 217px;
 	font-size: 1.2em;
 	color: #fff;
 }
@@ -330,18 +372,29 @@ h4 {
 	width: 30%
 }
 
+.paragraf-comoajudar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
 footer {
 	display: flex;
 }
 
-.div-contato {
+.container-contato {
+	margin-left: 10%;
 	width: 27%;
 }
 
-.div-parceiros {
+.container-parceiros {
 	display: flex;
 	margin-right: 390px;
     margin-left: 154px;
+}
+
+.parceiros {
+	display: flex;
 }
 
 .rodape-logo-turmadasopa { 
@@ -349,9 +402,13 @@ footer {
 }
 
 .logo-hortifruti {
-	width: 8%;
+	margin-top: 15%;
+	width: 60%;
+    height: 40%;
 }
 
 .logo-matita {
-	width: 10%;
+	margin-top: 15%;
+	width: 60%;
+    height: 40%;
 }
