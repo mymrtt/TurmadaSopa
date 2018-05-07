@@ -28,7 +28,7 @@ nav {
 
 @media (max-width: 640px) {
 	.borda-header {
-		width: 296px;
+		width: 273px;
 	}
 }
 
@@ -46,7 +46,7 @@ nav {
 @media (max-width: 640px) {
 	.logo-turmadasopa {
 		width: 100%;
-		margin-left: 132px;
+		margin-left: 119px;
 	}
 }
 
@@ -54,6 +54,13 @@ nav {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+}
+
+@media (max-width: 640px) {
+	.header-titulo {
+		width: 224px;
+		margin-left: 13%;
+	}
 }
 
 .turma-da-sopa {
@@ -136,6 +143,13 @@ nav {
 	border-color: yellow;
 }
 
+@media (max-width: 640px) {
+	.borda-header2 {
+		width: 292px;
+		border-width: 2px;
+	}
+}
+
 .titulo-sobaturma {
 	font-family: Haiku's-Script-v.08-upgrade];
 	font-size:3.69em;
@@ -149,6 +163,17 @@ nav {
 	width: 48%;
 	margin-top: -9%;
 	margin-left: 25%;
+}
+
+@media (max-width: 640px) {
+	.conteudo-sobreaturma {
+		width: 87%;
+		margin-left: 1%;
+		color: #000;
+		font-size: .88em;
+		text-align: left;
+		line-height: 1.55em;
+	}
 }
 
 h3 {
@@ -170,6 +195,15 @@ h3 {
 	border-style: dashed;
 	border-width: 4px; 
 	border-color: yellow;
+}
+
+@media (max-width: 640px) {
+	.container-graficos {
+		margin: 0%;
+		border-width: 5px;
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 h4 {
