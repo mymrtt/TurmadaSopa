@@ -1,3 +1,8 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
 nav {
 	margin: 3%;
 }
@@ -12,7 +17,7 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
-	font-family: FreightSansProBook-Regular;
+	font-family: 'FreightSansProBook-Regular';
 	font-size: 0.88em;
 	color: #000000;
 	line-height: 0.75em;
@@ -28,18 +33,16 @@ nav {
 
 @media (max-width: 640px) {
 	.borda-header {
-		/*width: 289px;*/
 		width: 84%;
 	}
 }
 
 .container-logo{
 	width: 20%;
-	margin: -20px;
 }
 
 .logo-turmadasopa {
-	width: 50%;
+	width: 100%;
 	margin: 11%;
 	padding: 24%;
 }
@@ -51,10 +54,9 @@ nav {
 	}
 }
 
-.header-titulo {
+.container-header {
 	display: flex;
-	justify-content: center;
-	flex-direction: column;
+	justify-content: space-between;
 }
 
 @media (max-width: 640px) {
@@ -65,25 +67,29 @@ nav {
 }
 
 .turma-da-sopa {
-	display: flex;
-	justify-content: center;
-	font-family: Haiku's-Script-v.08-upgrade];
-	font-size:6.25em;
+	width: 40%;
+	font-family: 'Haikus-Script-v.08-upgrade';
+	font-size: 4.25em;
 	color: #000000;
 	font-style: normal;
-	text-align: left;
+	text-align: center;
  }
 
 .de-niteroi {
 	display: flex;
 	justify-content: center;
-	font-family: Haiku's-Script-v.08-upgrade];
+	font-family: 'Haikus-Script-v.08-upgrade';
 	font-size: 3.69em;
 	color: #000000;	
 }
 
+.img-header {
+	display: flex;
+	justify-content: space-between;
+}
+
 .home1 {
-	width: 16%;
+	width: 10%;
 }
 
 @media (max-width: 640px) {
@@ -93,21 +99,9 @@ nav {
 	}
 }
 
-.div-home2 {
-	position: absolute;
-	top: 45%;
-	right: 7%;
-	
-}
-
-@media (max-width: 640px) {
-	.div-home2 {
-		display: none;
-	}
-}
-
 .home2 {
-	width: 300px;	
+	width: 25%;	
+	margin-top: -15%;
 }
 
 .div-home3 {
@@ -152,7 +146,7 @@ nav {
 }
 
 .titulo-sobaturma {
-	font-family: Haiku's-Script-v.08-upgrade];
+	font-family: 'Haikus-Script-v.08-upgrade';
 	font-size:3.69em;
 	color: #000000;
 	text-align: center;
@@ -167,10 +161,11 @@ nav {
 }
 
 .conteudo-sobreaturma {
-	font-family: FreightSansProBook-Regular;
+	font-family: 'FreightSansProBook-Regular';
 	width: 48%;
 	margin-top: -9%;
 	margin-left: 25%;
+
 }
 
 @media (max-width: 640px) {
@@ -189,7 +184,7 @@ nav {
 }
 
 h3 {
-	font-family: FreightSansProMedium-Regular;
+	font-family: 'FreightSansProMedium-Regular';
 	font-size: 1.44em;
 	color: #000000;
 	font-style: normal;
@@ -269,7 +264,7 @@ h4 {
 }
 
 .na-midia {
-	font-family: Haiku's-Script-v.08-upgrade];
+	font-family: 'Haikus-Script-v.08-upgrade';
 	font-size: 3.69em;
 	color: #000000;
 	font-style: normal;
@@ -291,7 +286,7 @@ h4 {
 }
 
 .paragraf-video {
-	font-family: FreightSansProBook-Regular;
+	font-family: 'FreightSansProBook-Regular';
 	font-size: 0.88em;
 	color: #036fef;
 	text-decoration: underline;
@@ -358,7 +353,7 @@ h4 {
 }
 
 .acontecendo {
-	font-family: Haiku's-Script-v.08-upgrade];
+	font-family: 'Haikus-Script-v.08-upgrade';
 	font-size: 3.60em;
 	color: #000000;
 	font-style: normal;
