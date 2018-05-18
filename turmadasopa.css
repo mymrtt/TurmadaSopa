@@ -75,14 +75,6 @@ nav {
 	text-align: center;
  }
 
-.de-niteroi {
-	display: flex;
-	justify-content: center;
-	font-family: 'Haikus-Script-v.08-upgrade';
-	font-size: 3.69em;
-	color: #000000;	
-}
-
 .img-header {
 	display: flex;
 	justify-content: space-between;
@@ -183,13 +175,14 @@ nav {
 	}
 }
 
-h3 {
+h5 {
 	font-family: 'FreightSansProMedium-Regular';
 	font-size: 1.44em;
 	color: #000000;
 	font-style: normal;
 	text-align: left;
 	line-height: 1.23em;
+	width: 41%;
 }
 
 .section-grafico {
@@ -302,7 +295,7 @@ h4 {
 
 .container-midias {
 	padding: 52px;
-	margin-top: -6%;
+	margin-top: -3%;
 }
 
 @media (max-width: 640px) {
@@ -383,19 +376,24 @@ h4 {
 	width: 36%;
 }
 
-.livro-cursos {
+.container-cursos {
+	margin-top: -4%;
+}
+
+.imglivro-cursos {
 	width: 15%;
+	margin-left: -40%;
 }
 
 @media (max-width: 640px) {
-	.livro-cursos {
+	.imglivro-cursos {
 		width: 100%;
 	}
 }
 
 .h-cursos {
 	text-align: left;
-	width: -30px;
+	width: 55%;
 }
 
 @media (max-width: 640px) {
@@ -404,15 +402,24 @@ h4 {
 	}
 }
 
-.campanha-leite {
+.container-campanhaleite {
+	margin-top: -3%;
+}
+
+.imgcampanha-leite {
 	width: 10%;
+	margin-left: -45%;
 }
 
 @media (max-width: 640px) {
-	.campanha-leite {
+	.imgcampanha-leite {
 		width: 70%;
 		padding: 44px;
 	}
+}
+
+.h-campanhaleite {
+	margin-left: -15%;
 }
 
 @media (max-width: 640px) {
@@ -421,26 +428,37 @@ h4 {
 	}
 }
 
+.container-cobertor {
+	margin-top: -9%;
+}
+
 @media (max-width: 640px) {
 	.container-cobertor {
-		]
+		
 	}
 }
 
-.campanha-cobertor {
+.imgcampanha-cobertor {
 	width: 15%;
+	margin-left: -40%;
 }
 
 @media (max-width: 640px) {
-	.campanha-cobertor {
+	.imgcampanha-cobertor {
 		width: 100%;
 	}
+}
+
+.h-campanhacobertor {
+	margin-left: -15%;
 }
 
 .paragraf-acontecendo {
 	width: 62%;
 	text-align: left;
-	margin-left: 10%;
+	margin-top: 5%;
+	margin-left: 5%;
+
 }
 
 @media (max-width: 640px) {
@@ -487,10 +505,12 @@ h4 {
 	margin: 5%;
 }
 
-.container-heart2 {
-
+.coraçoes {
+	width: 100%;
+	background-color: #000;
+	display: flex;
+	background-image: url(./TSN - Assets/heart.svg);
 }
-
 
 .heart1 {
 	width: 30%
@@ -498,7 +518,7 @@ h4 {
 
 .h-voluntario {
 	position: relative;
-	top: -245px;
+	top: -200px;
 	left: 104px;
 	font-size: 1.2em;
 	color: #fff;
@@ -506,7 +526,7 @@ h4 {
 
 .paragraf-heartvoluntario {
 	position: absolute;
-	top: 4143px;
+	top: 3840px;
 	left: 230px;
 	width: 14%;
 	font-size: 1em;
@@ -518,7 +538,8 @@ h4 {
 }
 
 .heart2 {
-	width: 30%
+	width: 30%;
+	margin-top: 12%;
 }
 
 .h-doaçaomateriais {
