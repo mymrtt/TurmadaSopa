@@ -487,86 +487,183 @@ h4 {
 
 .section-comoajudar {
 	margin: 4%;
-	padding: 108px;
 	padding: 51px;
     border-style: dashed;
     border-width: 4px;
     border-color: yellow;
+    position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	background: pink;
 }
 
 .container-comoajudar {
+	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+}
+
+.container-comoajudar h6{
+	font-family: 'Haikus-script-v.08-upgrade';
+	font-size: 3.69em;
+	color: #000000;
+	font-style: normal;
 	text-align: center;
-	padding: 5%;
+	background: yellow;
 }
 
 .container-coraçoes {
+	width: 90%;
+	min-height: 500px;
 	margin: 5%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+@media(max-width: 1200px){
+	.container-coraçoes{
+		min-height: 1100px;
+		justify-content: center;
+	}
 }
 
 .coraçoes {
-	width: 100%;
-	background-color: #000;
-	display: flex;
-	background-image: url(./TSN - Assets/heart.svg);
+	width: 40%;
+	min-width: 350px;
+	max-width: 420px;
+	min-height: 370px;
+	padding: 10%; 
+	background: url('./TSN - Assets/heart.svg') no-repeat;
+	background-size: 100%;
+	position: absolute;
 }
 
-.heart1 {
-	width: 30%
+.coraçoes__title{
+	font-size: 1.2em;
+	color: #fff;
+}
+.coraçoes__paragrafo {
+	font-size: 1em;
+	color: #fff;
+}
+
+.coraçoes--first{
+	width: 30%;
+	top:0;
+	left: 10%;
 }
 
 .h-voluntario {
 	position: relative;
-	top: -200px;
-	left: 104px;
-	font-size: 1.2em;
+	top: -16px;
+	left: 40px;
+	font-size: 1em;
 	color: #fff;
 }
 
 .paragraf-heartvoluntario {
 	position: absolute;
-	top: 3840px;
-	left: 230px;
-	width: 14%;
+	top: 107px;
+	width: 47%;
 	font-size: 1em;
-	color: #fff;
+	/*color: #fff;*/
+	color: blue;
 }
 
-.container-heart2 {
-	margin-top: -22%;
-}
-
-.heart2 {
+.coraçoes--second {
 	width: 30%;
-	margin-top: 12%;
+	top: 200px;
+	left: 10%;
 }
 
 .h-doaçaomateriais {
 	position: absolute;
-	top: 4265px;
-	left: 217px;
+	top: 10px;
 	font-size: 1.2em;
-	color: #fff;
+	/*color: #fff;*/
+	color: blue;
 }
 
-.paragraf-heartdoaçaomaterias {
+.h-materiaisdescartaveis {
 	position: absolute;
-	top: 4330px;
+	top: 74px;
 }
 
-.heart3 {
-	width: 30%
+.paragraf-heartdoaçaomateriais {
+	color: blue;
+	position: absolute;
+	top: 15px;
 }
 
-.heart4 {
-	width: 30%
+.p-depositoconta {
+	position: absolute;
+	top: 30%;
+	left: 3%;
 }
+
+.p-contribua {
+	position: absolute;
+	top: 41%;
+	left: 8%;
+}
+
+.h-doaçaoalimentos {
+	position: relative;
+	left: 8%;
+}
+
+.p-doaçaoalimentos {
+	width: 60%;
+	margin-left: -2%;
+}
+
+.coraçoes--thrid {
+	width: 30%;
+	top:0;
+	right: 10%;
+}
+
+.coraçoes--fourth{
+	width: 30%;
+	top:200px;
+	right: 10%;
+}
+
+@media(max-width: 1200px){
+	.coraçoes{
+		padding: 85px;
+		left: auto;
+		right: auto;
+	}
+	.coraçoes--first{
+		top:0;
+		
+	}
+	.coraçoes--second{
+		top: 200px;
+		
+	}
+	.coraçoes--thrid{
+		top:600px;
+		
+	}
+	.coraçoes--fourth{
+		top:800px;
+		
+	}
+}
+
 
 .paragraf-comoajudar {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-end;
+	width: 20%;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
 }
 
 footer {
