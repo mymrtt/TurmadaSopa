@@ -13,6 +13,10 @@ nav {
 	}
 }
 
+p {
+	font-family: 'FreightSansProBook-Regular';
+}
+
 .ul {
 	display: flex;
 	justify-content: space-around;
@@ -110,7 +114,6 @@ nav {
 
 .contato {
 	padding: 3%;
-	font-family: FreightSansProBook-Regular;
 	font-size: 0.88em;
 	color: #000000;
 	font-style: normal;
@@ -160,7 +163,6 @@ nav {
 }
 
 .conteudo-sobreaturma {
-	font-family: 'FreightSansProBook-Regular';
 	width: 48%;
 	margin-top: 2%;
 	margin-left: 25%;
@@ -300,7 +302,6 @@ h4 {
 }
 
 .paragraf-video {
-	font-family: 'FreightSansProBook-Regular';
 	font-size: 0.88em;
 	color: #036fef;
 	text-decoration: underline;
@@ -600,8 +601,7 @@ h4 {
 	top: 107px;
 	width: 47%;
 	font-size: 1em;
-	/*color: #fff;*/
-	color: blue;
+	color: #fff;
 }
 
 .coraçoes--second {
@@ -615,8 +615,8 @@ h4 {
 	top: 74px;
 	left: 102px;
 	font-size: 1.2em;
-	/*color: #fff;*/
-	color: blue;
+	color: #fff;
+
 }
 
 .h-materiaisdescartaveis {
@@ -712,13 +712,12 @@ footer {
 }
 
 .container-contato {
-	margin-left: 10%;
 	width: 27%;
+	margin-left: 10%;
 }
 
 .container-parceiros {
 	display: flex;
-	margin-right: 390px;
     margin-left: 154px;
 }
 
@@ -727,17 +726,28 @@ footer {
 }
 
 .rodape-logo-turmadasopa { 
-	width: 6%;
+	width: 30%;
+	margin-top: 8%;
 }
 
 .logo-hortifruti {
-	margin-top: 15%;
-	width: 60%;
-    height: 40%;
+	width: 20%;
+    height: 50%;
+	margin-top: 8%;
+	margin-left: -14%;
 }
 
 .logo-matita {
-	margin-top: 15%;
-	width: 60%;
-    height: 40%;
+	width: 20%;
+    height: 50%;
+	margin-top: 8%;
+	margin-left: 5%;
+}
+
+.p-refriromero {
+	width: 1%;
+	margin-top: 40px;
+	margin-left: -270px;
+	font-size: 1.50em;
+    font-weight: bolder;  
 }
