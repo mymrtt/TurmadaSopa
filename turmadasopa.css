@@ -137,13 +137,20 @@ nav {
 	}
 }
 
+.container-titulosobaturma {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .titulo-sobaturma {
 	font-family: 'Haikus-Script-v.08-upgrade';
 	font-size:3.69em;
-	color: #000000;
+	color: #000;
 	text-align: center;
-	line-height: 3.16em;
-	padding: 7%;
+	background: yellow;
+	margin-top: 5%;
 }
 
 @media (max-width: 640px) {
@@ -155,7 +162,7 @@ nav {
 .conteudo-sobreaturma {
 	font-family: 'FreightSansProBook-Regular';
 	width: 48%;
-	margin-top: -9%;
+	margin-top: 2%;
 	margin-left: 25%;
 
 }
@@ -183,10 +190,6 @@ h5 {
 	text-align: left;
 	line-height: 1.23em;
 	width: 41%;
-}
-
-.section-grafico {
-	padding: 10%;
 }
 
 .container-graficos {
@@ -217,12 +220,23 @@ h5 {
 	}
 }
 
+.container-hresultados {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h4 {
 	text-align: center;
 }
 
 .nossos-resultados {
-	padding: 7%;
+	font-family: 'Haikus-Script-v.08-upgrade';
+	font-size: 3.69em;
+	text-align: center;
+    background: yellow;
+	margin: 40px;
 }
 
 @media (max-width: 640px) {
@@ -256,13 +270,20 @@ h4 {
 	}
 }
 
+.container-hnamidia {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .na-midia {
 	font-family: 'Haikus-Script-v.08-upgrade';
 	font-size: 3.69em;
 	color: #000000;
 	font-style: normal;
 	text-align: center;
-	line-height: 3.16em;
+	background: yellow;
 }
 
 .container-video {
@@ -345,20 +366,28 @@ h4 {
 	border-color: yellow;
 }
 
+.container-hacontecendo {
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .acontecendo {
 	font-family: 'Haikus-Script-v.08-upgrade';
 	font-size: 3.60em;
-	color: #000000;
+	color: #000;
 	font-style: normal;
 	text-align: center;
-	line-height: 3.16em;
-	padding: 74px;
+	background: yellow;
+	margin-top: 5%;
 }
 
 .container-acontecendo{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 8%;
 }
 
 @media (max-width: 640px) {
@@ -583,7 +612,8 @@ h4 {
 
 .h-doaçaomateriais {
 	position: absolute;
-	top: 10px;
+	top: 74px;
+	left: 102px;
 	font-size: 1.2em;
 	/*color: #fff;*/
 	color: blue;
@@ -592,26 +622,36 @@ h4 {
 .h-materiaisdescartaveis {
 	position: absolute;
 	top: 74px;
+	left: 97px;
 }
 
 .paragraf-heartdoaçaomateriais {
 	color: blue;
+	width: 229px;
 	position: absolute;
-	top: 15px;
+	top: 125px;
+	left: 65px;
 }
 
 .h-deposito
 
+.pbanco {
+	position: absolute;
+	top: 27%;
+	left: 36%;
+}
+
 .p-depositoconta {
 	position: absolute;
-	top: 30%;
-	left: 3%;
+	top: 34%;
+	left: 20%;
 }
 
 .p-contribua {
+	width: 214px;
 	position: absolute;
-	top: 41%;
-	left: 8%;
+	top: 40%;
+	left: 20%;
 }
 
 .h-doaçaoalimentos {
