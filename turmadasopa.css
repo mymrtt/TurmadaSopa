@@ -37,7 +37,7 @@ p {
 
 @media (max-width: 640px) {
 	.borda-header {
-		width: 84%;
+		width: 94%;
 	}
 }
 
@@ -90,8 +90,7 @@ p {
 
 @media (max-width: 640px) {
 	.home1 {
-		width: 48%;
-		margin-top: 5%;
+		display: none;
 	}
 }
 
@@ -100,12 +99,19 @@ p {
 	margin-top: -15%;
 }
 
+@media (max-width: 640px) {
+	.home2 {
+		display: none;
+	}
+}
+
 .div-home3 {
 	display: none;
 }
 
 @media (max-width: 640px) {
 	.div-home3 {
+		display: flex;
 		width: 48%;
     	margin-top: 5%;
     	margin: 12px;
@@ -175,8 +181,8 @@ p {
 		justify-content: flex-end;
 		text-align: left;
 		flex-direction: column;
-		margin-left: -38px;
-		width: 297px;
+		margin-left: -36px;
+		width: 436px;
 		padding: 45px;
 		font-size: 1em;
 		line-height: 1.3em;
@@ -207,8 +213,8 @@ h5 {
 		display: flex;
 		flex-direction: column;
 		margin: 0%;
-		width: 57%;
-		height: 385px;
+		width: 100%;
+		height: 0%;
 		border-width: 6px;
 	}
 }
@@ -243,7 +249,7 @@ h4 {
 
 @media (max-width: 640px) {
 	.nossos-resultados {
-		margin-top: -10%;
+		margin-top: -5%;
 	}
 }
 
@@ -254,8 +260,8 @@ h4 {
 
 @media (max-width: 640px) {
 	.apoio1 {
-		width: 100%;
-		margin-left: -3%;
+		width: 89vw;
+		margin-left: -16%;
 	}
 }
 
@@ -266,9 +272,15 @@ h4 {
 
 @media (max-width: 640px) {
 	.apoio2 {
-		width: 100%;
-		margin-left: -19%;
+		width: 100vw;
+		margin-left: -23%;
 		padding: 32px;
+	}
+}
+
+@media (max-width: 640px) {
+	.borda-3 {
+		margin-top: -50px;
 	}
 }
 
@@ -277,6 +289,12 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 640px) {
+	.container-hnamidia {
+		padding: 26px;
+	}
 }
 
 .na-midia {
@@ -291,6 +309,14 @@ h4 {
 .container-video {
 	margin-top: 5%;
 	margin-left: 14%;
+}
+
+@media (max-width: 640px) {
+	.container-video {
+		margin-left: 18%;
+		margin-right: -7%;
+		height: 185px;
+	}
 }
 
 @media (max-width: 640px) {
@@ -310,8 +336,9 @@ h4 {
 
 @media (max-width: 640px) {
 	.paragraf-video {
-		width: 74vw;
-		margin-left: -9%;
+		width: 93vw;
+		font-size: 1em;
+		margin-left: -14%;
 	}
 }
 
@@ -335,12 +362,25 @@ h4 {
 @media (max-width: 640px) {
 	.midia1 {
 		width: 200px;
+		margin-top: 18px;
 		margin-left: -22px;
 	}
 }
 
 .img-midia1 {
 	width: 80%;
+}
+
+@media (max-width: 640px) {
+	.img-midia1 {
+		width: 60vw;
+	}
+}
+
+@media (max-width: 640px) {
+	.paragraf-midia1 {
+		width: 233px;
+	}
 }
 
 .midia2 {
@@ -353,12 +393,25 @@ h4 {
 	.midia2 {
 		width: 173px;
 		padding: 20px;
+		margin-top: 18px;
 		margin-left: -40px;
 	}
 }
 
 .img-midia2 {
 	width: 93%;
+}
+
+@media (max-width: 640px) {
+	.img-midia2 {
+		width: 60vw;
+	}
+}
+
+@media (max-width: 640px) {
+	.paragraf-midia2 {
+		width: 219px;
+	}
 }
 
 .borda-3 {
@@ -526,7 +579,6 @@ h4 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	background: pink;
 }
 
 .container-comoajudar {
@@ -626,7 +678,7 @@ h4 {
 }
 
 .paragraf-heartdoaçaomateriais {
-	color: blue;
+	color: #fff;
 	width: 229px;
 	position: absolute;
 	top: 125px;
@@ -661,7 +713,7 @@ h4 {
 
 .p-doaçaoalimentos {
 	width: 60%;
-	margin-left: -2%;
+	margin-left: -4%;
 }
 
 .coraçoes--thrid {
@@ -723,6 +775,7 @@ footer {
 
 .parceiros {
 	display: flex;
+	margin-left: -134px;
 }
 
 .rodape-logo-turmadasopa { 
@@ -732,22 +785,22 @@ footer {
 
 .logo-hortifruti {
 	width: 20%;
-    height: 50%;
-	margin-top: 8%;
-	margin-left: -14%;
+    height: 60%;
+	margin-top: 6%;
+	margin-left: -11%;
 }
 
 .logo-matita {
 	width: 20%;
-    height: 50%;
-	margin-top: 8%;
+    height: 60%;
+	margin-top: 6%;
 	margin-left: 5%;
 }
 
 .p-refriromero {
 	width: 1%;
 	margin-top: 40px;
-	margin-left: -270px;
+	margin-left: -325px;
 	font-size: 1.50em;
     font-weight: bolder;  
 }
