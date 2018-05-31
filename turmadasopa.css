@@ -37,7 +37,7 @@ p {
 
 @media (max-width: 640px) {
 	.borda-header {
-		width: 94%;
+		width: 352px;
 	}
 }
 
@@ -54,7 +54,7 @@ p {
 @media (max-width: 640px) {
 	.logo-turmadasopa {
 		width: 100%;
-		margin-left: 119px;
+		margin-left: 156px;
 	}
 }
 
@@ -80,6 +80,15 @@ p {
 	font-style: normal;
 	text-align: center;
  }
+
+@media (max-width: 640px) {
+	.turma-da-sopa {
+		width: 365px;
+		font-size: 3em;
+		margin-top: 13%;
+		margin-left: 15px;
+	}
+}
 
 .img-header {
 	display: flex;
@@ -143,8 +152,8 @@ p {
 
 @media (max-width: 640px) {
 	.borda-header2 {
-		width: 292px;
-		border-width: 2px;
+		width: 370px;
+		border-width: 3px;
 	}
 }
 
@@ -283,6 +292,7 @@ h4 {
 @media (max-width: 640px) {
 	.borda-3 {
 		margin-top: -50px;
+		width: 370px;
 	}
 }
 
@@ -476,13 +486,16 @@ h4 {
 	}
 }
 
-.h-cursos {
-	text-align: left;
+.subtitulo-cursos {
 	width: 55%;
+	margin-left: -12px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	
 }
 
 @media (max-width: 640px) {
-	.h-cursos {
+	.subtitulo-cursos {
 		display: flex;
 	}
 }
@@ -503,12 +516,15 @@ h4 {
 	}
 }
 
-.h-campanhaleite {
-	margin-left: -15%;
+.subtitulo-campanhaleite {
+	width: 192px;
+	margin-left: -14%;
+	font-size: 1.5em;
+	text-transform: uppercase;
 }
 
 @media (max-width: 640px) {
-	.h-campanhaleite {
+	.subtitulo-campanhaleite {
 		width: 143px;
 	}
 }
@@ -534,15 +550,18 @@ h4 {
 	}
 }
 
-.h-campanhacobertor {
-	margin-left: -15%;
+.subtitulo-campanhacobertor {
+	width: 190px;
+	margin-left: -70px;
+	font-size: 1.5em;
+	text-transform: uppercase;
 }
 
 .paragraf-acontecendo {
 	width: 62%;
 	text-align: left;
-	margin-top: 5%;
-	margin-left: 5%;
+	margin-top: 15px;
+	margin-left: 24px;
 
 }
 
