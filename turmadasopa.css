@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 nav {
 	margin: 3%;
 }
@@ -38,7 +39,7 @@ p {
 @media (max-width: 640px) {
 	.borda-header {
 		/*width: 357px;*/
-		width: 378px;
+		width: 337px;
 	}
 }
 
@@ -55,7 +56,7 @@ p {
 @media (max-width: 640px) {
 	.logo-turmadasopa {
 		width: 100%;
-		margin-left: 171px;
+		margin-left: 151px;
 	}
 }
 
@@ -78,7 +79,6 @@ p {
 	font-family: 'Haikus-Script-v.08-upgrade';
 	font-size: 4.25em;
 	color: #000;
-	font-style: normal;
 	text-align: center;
  }
 
@@ -134,7 +134,6 @@ p {
 	padding: 3%;
 	font-size: 0.88em;
 	color: #000;
-	font-style: normal;
 	text-align: center;
 	line-height: 0.75em;
 }
@@ -153,8 +152,8 @@ p {
 
 @media (max-width: 640px) {
 	.borda-header2 {
-		width: 394px;
-		border-width: 4px;
+		width: 356px;
+		border-width: 3px;
 	}
 }
 
@@ -178,7 +177,7 @@ p {
 	.titulo-sobaturma {
 		padding: 0%;
 		font-size: 1.69em;
-		margin-left: 90px;
+		margin-left: 49px;
 	}
 }
 
@@ -192,13 +191,13 @@ p {
 @media (max-width: 640px) {
 	.conteudo-sobreaturma {
 		display: flex;
-		width: 436px;
-		padding: 45px;
+		width: 415px;
+		padding: 46px;
 		color: #000;
-		font-size: 1.1em;
+		font-size: 1em;
 		line-height: 1.3em;
 		flex-direction: column;
-		margin-left: -18px;
+		margin-left: -29px;
 	}
 }
 
@@ -312,7 +311,6 @@ h4 {
 	text-align: center;
 	background: yellow;
 }
-
 
 .container-video {
 	margin-top: 5%;
@@ -546,7 +544,7 @@ h4 {
 
 .imgcampanha-cobertor {
 	width: 15%;
-	margin-left: -40%;
+	margin-left: -42%;
 }
 
 @media (max-width: 640px) {
@@ -597,14 +595,14 @@ h4 {
 .section-comoajudar {
 	margin: 4%;
 	padding: 51px;
-    border-style: dashed;
-    border-width: 4px;
-    border-color: yellow;
-    position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
+	position: relative;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: yellow;
 }
 
 .container-comoajudar {
@@ -617,7 +615,7 @@ h4 {
 .container-comoajudar h6{
 	font-family: 'Haikus-script-v.08-upgrade';
 	font-size: 3.69em;
-	color: #000000;
+	color: #000;
 	font-style: normal;
 	text-align: center;
 	background: yellow;
@@ -631,12 +629,12 @@ h4 {
 
 .container-coraçoes {
 	width: 90%;
-	min-height: 500px;
 	margin: 5%;
-	position: relative;
+	min-height: 500px;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
+	position: relative;
 }
 
 @media(max-width: 1200px){
@@ -652,9 +650,9 @@ h4 {
 	max-width: 420px;
 	min-height: 370px;
 	padding: 10%; 
+	position: absolute;
 	background: url('./TSN - Assets/heart.svg') no-repeat;
 	background-size: 100%;
-	position: absolute;
 }
 
 .coraçoes__title{
@@ -700,7 +698,6 @@ h4 {
 	left: 102px;
 	font-size: 1.2em;
 	color: #fff;
-
 }
 
 .h-materiaisdescartaveis {
