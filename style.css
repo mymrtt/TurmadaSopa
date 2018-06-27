@@ -18,13 +18,16 @@ p {
 	font-family: 'FreightSansProBook-Regular';
 }
 
-.ul {
+.menu {
 	display: flex;
 	justify-content: space-around;
+}
+
+.menu a {
 	list-style: none;
 	font-family: 'FreightSansProBook-Regular';
 	font-size: 0.88em;
-	color: #000000;
+	color: #000;
 	line-height: 0.75em;
 	text-transform: uppercase;
 }
