@@ -145,7 +145,7 @@ body{
 
 @media (max-width: 768px){
 	.borda__header2 {
-		width: 319px;
+		width: 100%;
 		border-width: 4px;
 	}
 }
@@ -222,12 +222,12 @@ h5{
 
 @media (max-width: 768px){
 	.container__graficos{
-		width: 308px;
+		width: 95%;
 		display: flex;
-		flex-direction: column;
 		margin: 9px;
 		height: 0%;
-		border-width: 7px;
+		flex-direction: column;
+		border-width: 6px;
 	}
 }
 
@@ -624,6 +624,12 @@ h4 {
     border-width: 4px;
     border-color: yellow;
 }
+@media(max-width: 768px){
+	.containermae__comoajudar{
+		margin: 2%;
+		border-width: 6px;
+	}
+}
 
 .caixa__comoajudar{
 	width: 100%;
@@ -805,6 +811,11 @@ h4 {
 	bottom: 10px;
 	right: 10px;
 }
+@media (max-width: 768px){
+	.paragrafo__comoajudar{
+		display: none;
+	}
+}
 
 footer{
 	display: flex;
@@ -814,27 +825,55 @@ footer{
 	width: 27%;
 	margin-left: 10%;
 }
+@media (max-width: 768px){
+	.container__contato{
+		width: 72%;
+	}
+}
 
 .container__parceiros{
 	display: flex;
     margin-left: 154px;
+}
+@media(max-width: 768px){
+	.container__parceiros{
+		flex-direction: row;
+		margin: 50% -65% 18% -77%;
+	}
+}
+
+
+.rodape__logo-turmadasopa{ 
+	width: 30%;
+	margin-top: 8%;
+}
+@media(max-width: 768px){
+	.rodape__logo-turmadasopa{
+		width: 25%;
+	}
 }
 
 .parceiros{
 	display: flex;
 	margin-left: -134px;
 }
-
-.rodape__logo-turmadasopa{ 
-	width: 30%;
-	margin-top: 8%;
+@media (max-width: 768px){
+	.parceiros{
+		margin-left: -26%;
+	}
 }
-
 .logo__hortifruti{
 	width: 20%;
     height: 60%;
 	margin-top: 6%;
 	margin-left: -11%;
+}
+@media (max-width: 768px){
+	.logo__hortifruti{
+		width: 17%;
+		height: 60%;
+		margin-left: -15%;
+	}
 }
 
 .logo__matita{
@@ -843,6 +882,13 @@ footer{
 	margin-top: 6%;
 	margin-left: 5%;
 }
+@media (max-width: 768px){
+	.logo__matita{
+		width: 16%;
+		height: 60%;
+		margin-left: 3%;
+	}
+}
 
 .paragrafo__refriromero{
 	width: 1%;
@@ -850,4 +896,10 @@ footer{
 	margin-left: -310px;
 	font-size: 1.50em;
     font-weight: bolder;  
+}
+@media (max-width: 768px){
+	.paragrafo__refriromero{
+		font-size: 1em;
+		font-weight: normal;
+	}
 }
