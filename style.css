@@ -375,8 +375,8 @@ h4 {
 @media (max-width: 768px){
 	.paragraf-video{
 		width: 318px;
-		font-size: 1em;
 		margin: 4% 0 0 6%;
+		font-size: 1em;
 	}
 }
 
