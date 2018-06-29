@@ -43,7 +43,7 @@ body{
 }
 @media (max-width: 768px){
 	.borda__header {
-		width: 300px;
+		width: 94%;
 	}
 }
 
