@@ -367,7 +367,8 @@ h4 {
 .paragraf-video{
 	width: 65%;
 	color: #036fef;
-	font-size: 0.88em;
+	font-size: 1em;
+	margin: 1% 0 0 4%;
 	text-decoration: underline;
 }
 
