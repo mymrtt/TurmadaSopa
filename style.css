@@ -43,7 +43,7 @@ body{
 }
 @media (max-width: 768px){
 	.borda__header {
-		width: 94%;
+		width: 100%;
 	}
 }
 
@@ -626,8 +626,10 @@ h4 {
 }
 @media(max-width: 768px){
 	.containermae__comoajudar{
-		margin: 2%;
-		border-width: 6px;
+		 margin: 2%;
+	    padding-left: 0;
+	    padding-right: 0;
+	    border-width: 6px;
 	}
 }
 
@@ -786,22 +788,23 @@ h4 {
 		padding: 85px;
 		left: auto;
 		right: auto;
+		min-width: 100%;
+    	max-width: 100%;
 	}
 	.coraçoes--first{
 		top:0;
 		
 	}
 	.coraçoes--second{
-		top: 200px;
+		top: 170px;
 		
 	}
 	.coraçoes--thrid{
-		top:600px;
+		top:500px;
 		
 	}
 	.coraçoes--fourth{
-		top:800px;
-		
+		top:670px;
 	}
 }
 
@@ -841,7 +844,6 @@ footer{
 		margin: 50% -65% 18% -77%;
 	}
 }
-
 
 .rodape__logo-turmadasopa{ 
 	width: 30%;
