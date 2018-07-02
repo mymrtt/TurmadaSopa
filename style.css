@@ -903,6 +903,7 @@ footer{
 }
 @media(max-width: 768px){
 	.container__parceiros{
+		width: 40%;
 		flex-direction: row;
 		margin: 50% -65% 18% -77%;
 	}
@@ -965,6 +966,7 @@ footer{
 @media (max-width: 768px){
 	.paragrafo__refriromero{
 		font-size: 1em;
+		margin-left: 47%;
 		font-weight: normal;
 	}
 }
