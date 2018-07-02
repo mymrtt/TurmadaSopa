@@ -191,7 +191,7 @@ body{
 		padding: 46px;
 		font-size: 5vw;
 		line-height: 1.3em;
-		margin: -5% 0 0 -7%;
+		margin: -5% 0 0 0;
 	}
 }
 
@@ -687,7 +687,7 @@ h4 {
 
 @media(max-width: 1200px){
 	.container__coraçoes{
-		min-height: 1100px;
+		max-height: 1100px;
 		justify-content: center;
 	}
 }
