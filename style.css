@@ -188,10 +188,9 @@ body{
 
 @media (max-width: 768px){
 	.conteudo__sobreaturma{
-		padding: 46px;
 		font-size: 5vw;
 		line-height: 1.3em;
-		margin: -5% 0 0 0;
+		margin: -6% 0 0 10%;
 	}
 }
 
@@ -384,6 +383,11 @@ h4 {
 	margin: 1% -6% 0 0;
 	text-decoration: underline;
 }
+@media (max-width: 1024px){
+	.paragraf-video{
+		margin: margin: 1% 7% 0 0;
+	}
+}
 
 @media (max-width: 768px){
 	.paragraf-video{
@@ -401,9 +405,17 @@ h4 {
 	justify-content: space-between;
 }
 
+@media(max-width: 1024px){
+	.container__midias{
+		display: flex;
+		justify-content: space-around;
+		margin-top: -5%;
+	}
+}
+
 @media (max-width: 768px){
 	.container__midias{
-		margin: 2% 0 0 20%;
+		margin: 23% 0 0 20%;
 	}
 }
 
@@ -555,6 +567,11 @@ h4 {
 	width: 13%;
 	margin-left: -47%;
 }
+@media (max-width: 1024px){
+	.img__campanhaleite{
+		margin-left: -45%;
+	}
+}
 
 @media (max-width: 768px){
 	.img__campanhaleite{
@@ -570,6 +587,11 @@ h4 {
 	font-size: 1.5em;
 	text-transform: uppercase;
 }
+@media (max-width: 1024px){
+	.subtitulo__campanhaleite{
+		margin-left: 15%;
+	}
+}
 
 @media (max-width: 768px){
 	.subtitulo__campanhaleite{
@@ -579,6 +601,12 @@ h4 {
 
 .container__cobertor{
 	margin-top: -9%;
+}
+
+@media (max-width: 1024px){
+	.container__cobertor{
+		margin-top: -16%;
+	}
 }
 
 @media (max-width: 768px){
@@ -606,6 +634,12 @@ h4 {
 	font-size: 1.5em;
 	text-transform: uppercase;
 }
+@media (max-width: 1024px){
+	.subtitulo__campanhacobertor{
+		margin-left: -5%;
+	}
+}
+
 @media (max-width: 768px){
 	.subtitulo__campanhacobertor{
 		margin: 18% 0 0 15%;
@@ -757,10 +791,17 @@ h4 {
 
 .h-doaçaomateriais{
 	position: absolute;
-	/*font-size: 1.1em;*/
 	top: 74px;
 	left: 72px;
 	color: #fff;
+}
+@media (max-width: 768px){
+	.h-doaçaomateriais{
+		width: 80%;
+		font-size: 1em;
+		margin-top: -7%;
+		margin-left: -7%;
+	}
 }
 
 .h-materiaisdescartaveis{
@@ -797,11 +838,24 @@ h4 {
 	top: 27%;
 	left: 36%;
 }
+@media (max-width: 768px){
+	.paragrafo__banco{
+		margin-top: -9%;
+		margin-left: -1%;
+	}
+}
 
 .paragrafo__depositoconta{
 	position: absolute;
 	top: 34%;
 	left: 20%;
+}
+@media(max-width: 768px){
+	.paragrafo__depositoconta{
+		width: 78%;
+		margin-top: -11%;
+    	margin-left: -3%;
+	}
 }
 
 .paragrafo__contribua{
@@ -809,6 +863,13 @@ h4 {
 	position: absolute;
 	top: 40%;
 	left: 20%;
+}
+@media (max-width: 768px){
+	.paragrafo__contribua{
+		width: 199px;
+		margin-top: -12%;
+		margin-left: -4%;
+	}
 }
 
 .h-doaçaoalimentos{
@@ -927,7 +988,7 @@ footer{
 }
 @media(max-width: 768px){
 	.rodape__logo-turmadasopa{
-		width: 25%;
+		width: 60%;
 	}
 }
 
@@ -937,7 +998,7 @@ footer{
 }
 @media (max-width: 768px){
 	.parceiros{
-		margin-left: -26%;
+		margin-left: 9%;
 	}
 }
 .logo__hortifruti{
@@ -948,9 +1009,10 @@ footer{
 }
 @media (max-width: 768px){
 	.logo__hortifruti{
-		width: 17%;
+		width: 85%;
 		height: 60%;
-		margin-left: -15%;
+		margin-top: 28%;
+		margin-left: -100%;
 	}
 }
 
@@ -962,9 +1024,10 @@ footer{
 }
 @media (max-width: 768px){
 	.logo__matita{
-		width: 16%;
+		width: 85%;
 		height: 60%;
-		margin-left: 3%;
+		margin-top: 28%;
+		margin-left: 7%;
 	}
 }
 
@@ -978,7 +1041,8 @@ footer{
 @media (max-width: 768px){
 	.paragrafo__refriromero{
 		font-size: 1em;
-		margin-left: 47%;
+		margin-top: 19%;
+		margin-left: 76%;
 		font-weight: normal;
 	}
 }
