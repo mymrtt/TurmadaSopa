@@ -1158,12 +1158,12 @@ footer{
 	.paragrafo__refriromero{
 		font-size: 1em;
 		margin-top: 19%;
-		margin-left: 97%;
+		margin-left: 85%;
 		font-weight: normal;
 	}
 }
 @media(max-width: 320px){
 	.paragrafo__refriromero{
-		margin-left: 73%;
+		margin-left: 66%;
 	}
 }
