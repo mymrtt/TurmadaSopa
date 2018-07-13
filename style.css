@@ -242,6 +242,11 @@ h5{
 	}
 }
 
+@media (max-width: 320px){
+	.container__graficos{
+		margin: 3.5%;
+	}
+}
 .container__tituloresultados{
 	width: 100%;
     display: flex;
@@ -252,7 +257,7 @@ h5{
 @media (max-width: 768px){
 	.container__tituloresultados{
 		width: 201px;
-		margin-left: 25%;
+		margin-left: 28%;
 	}
 }
 
@@ -275,6 +280,11 @@ h4 {
 		margin-left: -19%;
 	}
 }
+@media (max-width: 320px){
+	.nossos_resultados{
+		margin-left: -30%;
+	}
+}
 
 .apoio1{
 	width: 35%;
@@ -284,7 +294,12 @@ h4 {
 @media (max-width: 768px){
 	.apoio1{
 		width: 85vw;
-		margin-left: -24%;
+		margin-left: -17%;
+	}
+}
+@media (max-width: 320px){
+	.apoio1{
+		margin-left: -23%;
 	}
 }
 
@@ -297,9 +312,15 @@ h4 {
 	.apoio2{
 		width: 100vw;
 		padding: 32px;
+		margin-left: -29%;
+	}
+}
+@media (max-width: 320px){
+	.apoio2{
 		margin-left: -35%;
 	}
 }
+
 
 @media (max-width: 768px){
 	.borda-3{
@@ -420,6 +441,11 @@ h4 {
 		margin: 23% 0 0 23%;
 	}
 }
+@media(max-width: 320px){
+	.container__midias{
+		margin: 23% 0 0 20%;
+	}
+}
 
 .midias {
 	width: 42%;
@@ -526,7 +552,7 @@ h4 {
 }
 
 .container__cursos{
-	margin-top: -4%;
+	margin-top: -2%;
 }
 @media (max-width: 768px){
 	.container__cursos{
@@ -585,7 +611,7 @@ h4 {
 .subtitulo__campanhaleite{
 	width: 253px;
 	margin-top: 20px;
-	margin-left: -4%;
+	margin-left: -1%;
 	font-size: 1.5em;
 	text-transform: uppercase;
 }
@@ -598,12 +624,6 @@ h4 {
 @media (max-width: 1024px){
 	.subtitulo__campanhaleite{
 		margin-left: 15%;
-	}
-}
-
-@media (max-width: 1440px){
-	.subtitulo__campanhaleite{
-		margin-left: -7%;
 	}
 }
 
@@ -637,7 +657,7 @@ h4 {
 .subtitulo__campanhacobertor{
 	width: 190px;
 	margin-top: 20px;
-	margin-left: -18%;
+	margin-left: -16%;
 	font-size: 1.5em;
 	text-transform: uppercase;
 }
@@ -649,12 +669,6 @@ h4 {
 @media (max-width: 768px){
 	.subtitulo__campanhacobertor{
 		margin: 18% 0 0 28%;
-	}
-}
-
-@media (max-width: 1440px){
-	.subtitulo__campanhacobertor{
-		margin-left: -20%;
 	}
 }
 
@@ -674,20 +688,24 @@ h4 {
 }
 
 .containermae__comoajudar{
-	margin: 4%;
-	padding: 51px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
 	position: relative;
+	margin: 4%;
+	padding: 51px;
     border-style: dashed;
     border-width: 4px;
     border-color: yellow;
 }
+@media (max-width: 320px){
+	.containermae__comoajudar{
+		margin: 0 0 8% 3%;
+	}
+}
 @media(max-width: 768px){
 	.containermae__comoajudar{
-		 margin: 2%;
 	    padding-left: 0;
 	    padding-right: 0;
 	    border-width: 6px;
@@ -778,6 +796,10 @@ h4 {
 		margin-top: -9%;
 		margin-left: -16%;
 	}
+}
+@media (max-width: 1440px){
+	.h-voluntario{
+		margin-top: -6%;
 }
 
 .paragraf-heartvoluntario{
@@ -886,8 +908,8 @@ h4 {
 }
 
 .h-doaçaoalimentos{
-	position: relative;
-	left: 8%;
+	margin-top: -8%;
+		margin-left: -26%;
 	width: 243px;
 }
 @media (max-width: 768px){
@@ -896,12 +918,12 @@ h4 {
 		margin-left: -49%;
 	}
 }
-@media (max-width: 1440px){
+/*@media (max-width: 1440px){
 	.h-doaçaoalimentos{
 		margin-top: -8%;
-		margin-left: -8%;
+		margin-left: -38%;
 	}
-}
+}*/
 
 .paragrafo__doaçaoalimentos{
 	width: 60%;
