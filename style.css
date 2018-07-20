@@ -406,8 +406,8 @@ h4 {
 
 @media (max-width: 768px){
 	iframe {
-		width: 100%;
-		height: 29vh;
+	    width: 100%;
+	    height: 28vh;
 	}
 }
 
@@ -419,7 +419,7 @@ h4 {
 }
 @media (max-width: 768px){
 	.paragraf-video{
-		width: 353px;
+		width: 304px;
 		margin: 15px 0;
 		font-size: 1em;
 	}
@@ -510,6 +510,11 @@ h4 {
     justify-content: center;
     align-items: center;
 }
+@media(max-width: 768px){
+	.container__hacontecendo{
+		margin-bottom: 35px;
+	}
+}
 
 .acontecendo{
 	font-family: 'Haikus-Script-v.08-upgrade';
@@ -588,10 +593,11 @@ h4 {
 }
 @media(max-width: 768px){
 	.subtitulo__acontecendo{
-		width: auto;
-		display: flex;
+		width: 200px;
+	    display: flex;
+	    text-align: center;
 	    flex-direction: column;
-	    align-items: center;
+	    margin: 10px 0 20px 0;
 	}
 }
 
@@ -599,11 +605,11 @@ h4 {
 	font-weight: bold;
 }
 
-@media (max-width: 768px){
-	.subtitulo__cursos {
-		width: 52vw;
-		margin-left: 12%;
-    	text-align: center;
+@media(max-width: 768px){
+	.subtitulo__cursosvoluntarios{
+		width: 173px;
+	    display: block;
+	    margin: 10px 0 20px 0;
 	}
 }
 
@@ -613,7 +619,9 @@ h4 {
 @media (max-width: 768px){
 	.subtitulo__campanhaleite{
 		width: 200px;
-    	text-align: center;
+    	margin: 10px 30px 20px 0;
+    	display: flex;
+    	flex-direction: column;
 	}
 }
 @media (max-width: 1024px){
@@ -644,12 +652,12 @@ h4 {
 		margin-left: -5%;
 	}
 }
-@media (max-width: 768px){
+/*@media (max-width: 768px){
 	.subtitulo__campanhacobertor{
 		margin: 18% 0 0 14%;
     	text-align: center;
 	}
-}
+}*/
 
 .containermae__comoajudar{
 	display: flex;
