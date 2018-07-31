@@ -16,23 +16,69 @@ body{
 	width: 100%;
 }
 
+@media(max-width: 768px){
+	.container__menu{
+	width: 100%;
+	height: auto;
+	border-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	z-index: 3;
+	position: relative;
+	}
+}
+.menu-mobile--button{
+	display: none;
+}
 .menu{
 	display: flex;
 	justify-content: space-around;
 }
-@media (max-width: 768px){
-	.menu{
-		display: none;
-	}
-}
-
-.menu a{
+.menu-item{
 	list-style: none;
 	font-family: 'FreightSansProBook-Regular';
 	font-size: 0.88em;
 	color: #000;
 	line-height: 0.75em;
 	text-transform: uppercase;
+}
+@media(max-width: 768px){
+	.menu{
+		width: 70%;
+		height: 100vh;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		text-transform: uppercase;
+		background-color: yellow;
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+	.menu-mobile--button {
+		display: block;
+		color: #000;
+		margin: 10px 0 0;
+		text-transform: uppercase;
+		text-decoration: none;
+		background-color: transparent;
+		border-color: transparent;
+	}
+	.menu-mobile--button:focus{
+		outline: none;
+	}
+	.menu-mobile--button:focus ~ .menu, .menu:hover{
+		display: flex;
+	}
+	.menu-item{
+		line-height: 3.5em;
+		text-align:left;
+		text-decoration: none;
+	}
+	
 }
 
 .borda__header{
@@ -436,7 +482,6 @@ h4 {
 		width: 100%;
 		align-items: center;
 		margin-bottom: 50px;
-		/*margin: 40px 0 0 90px;*/
 	}
 }
 
@@ -466,12 +511,6 @@ h4 {
 		font-size: 1em;
 	}
 }
-
-/*@media (max-width: 768px){
-	.midia--2 {
-		margin: 30% 0 0 0;
-	}
-}*/
 
 @media (max-width: 768px){
 	.img-midia2 {
@@ -646,12 +685,6 @@ h4 {
 		margin-left: -5%;
 	}
 }
-/*@media (max-width: 768px){
-	.subtitulo__campanhacobertor{
-		margin: 18% 0 0 14%;
-    	text-align: center;
-	}
-}*/
 
 .containermae__comoajudar{
 	display: flex;
@@ -714,6 +747,7 @@ h4 {
 @media (max-width: 768px){
 	.container__coraçoes{
 		min-height: 917px;
+		z-index: 2;
 	}
 }
 
@@ -922,7 +956,7 @@ h4 {
 
 .h-doaçaoalimentos{
 	margin-top: -8%;
-		margin-left: -26%;
+	margin-left: -26%;
 	width: 243px;
 }
 @media (max-width: 768px){
